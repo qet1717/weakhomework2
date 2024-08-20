@@ -1,0 +1,180 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Castoro&display=swap');
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*,*:before,*:after{box-sizing: border-box;}
+a{text-decoration: none;
+  display: inline-block;
+   color: inherit;}
+body{font-family: "Bruno Ace SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height:1.5;
+    font-size: 24px;
+    color: #15161D;}
+.tittle-style{font-size: 64px;
+              color: #FFFFFF;}
+.tittle-style2 h2{font-size:128px;
+                color: #00FFA3;}    
+img{height: auto;
+    max-width: auto;
+    max-height: 100%;   
+    vertical-align: middle;}
+.container{width: 1296px;
+            margin: 0 auto;}
+.m-b{margin-bottom: 28px;}
+.m-r{margin-right: 24px;}
+.d-f{display: flex;}
+.frame{background: #000;
+        padding: 40px 0;}
+.nav-list{
+        justify-content: space-between;
+        align-items: center;
+        width: 1297px;
+       }
+.nav-item{color: #D1D1D1;
+          font-size: 16px;
+        }
+.nav-item-a{color: #D1D1D1;;
+            text-decoration: none;}/*要增加hover 效果*/
+
+.header{background: #000000;        }
+.header-photo{display: inline;
+              width: 100%;}
+.header-list{   flex-direction: column;
+                justify-content: center;
+                margin-left: 24px;
+                }
+                padding-top: 12px;
+.header-bottom{background: #FFFFFF;
+               padding-bottom: 12px;                              
+               width: 185px;
+               border-radius: 32px 32px 32px 32px;
+               justify-content: center;}
+.header-bottom a{font-size: 16px;
+                color: #000000;} 
+.tittle-style3 {
+               justify-content: end;}
+.header-content{padding-top: 72px; }
+.introduction{background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+              background-size:100% ;}
+.introduction-left{width: 526px;
+                   padding-right: 24px;}
+.introduction-left-list h3{font-size: 64px;
+                           color: #FFFFFF;
+                        padding-bottom: 36px;}
+.introduction-left-list p{font-size: 24px;
+                         color: #FFFFFF;
+                         padding-bottom: 32px;}
+.introduction-left-list img{padding-right: 16px;}
+.introduction-content {align-items: center;}
+.introduction-right-list li{padding-right: 24px;}
+.aboutme{justify-content: space-around;
+         align-items: center;
+         margin-top: 160px;
+         margin-bottom: 160px;}
+
+.aboutme-content{align-items: center; 
+                }
+.aboutme-content-left{width: 50%;
+              margin-right: auto;}
+.aboutme-content-right{width: 40%;}
+.card{display: flex;
+      justify-content: space-between;
+       flex-wrap: wrap;}
+.card li{width: 46%;
+        margin-right: 24px;
+        margin-bottom: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;}
+.card-content{border: 1px solid #E3E3E3;
+              padding: 16px;}
+.card-style1{font-size: 20px;}
+.card-style2{font-size: 16px;}
+              
+.aboutme-tittle {color: #000000;
+                margin-bottom:36px;}
+.content{background: linear-gradient(#050014, #01021E 89%);}
+.content-content{justify-content: space-between;}
+
+.content-left-content{align-items: center;}
+.content img{padding-left: 16px;}
+.content-right-content{padding-top: 96px;
+                      padding-bottom: 96px;}
+.contentitem:hover{ width:264px ;
+                    height:243px;}
+.content-right-content-item{padding-left: 20px;
+                padding-right: 20px;}
+.project-content{padding-top: 160px;
+                 padding-bottom: 160px;}
+
+.myphoto2-img{display: inline;}
+.myproject{width: 746px;
+           justify-content: flex-end;
+           margin-left: 16%;
+           margin-bottom: 16px;}
+.myproject h1{color: #000000;}
+
+.item a{background: #000000;
+        color: #FFFFFF;
+        border-radius: 32px;
+        font-size: 16px;        
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 24px;
+        padding-right: 24px;}
+.item img{padding-left: 4px;}
+.footer{background: #000000;}
+.footer-content{display: flex;
+                justify-content: center;
+                padding-top: 40px;
+                padding-bottom: 40px;
+                }
+.footer-content p{color: #FFFFFF;
+                margin-left: 11%;
+                }
